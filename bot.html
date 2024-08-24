@@ -6,46 +6,73 @@
     <title>Discord Bots</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #2C2F33;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             color: #FFFFFF;
             margin: 0;
-            padding: 20px;
+            padding: 0;
             text-align: center;
         }
+
         header {
-            background-color: #7289DA;
-            padding: 20px;
-            font-size: 24px;
+            background-color: #4A69BB;
+            padding: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            color: #FFFFFF;
         }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: #2C3E50;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
         .bot-card {
-            background-color: #23272A;
-            border: 1px solid #7289DA;
+            background-color: #34495E;
+            border: 1px solid #4A69BB;
             border-radius: 8px;
             margin: 20px auto;
             padding: 20px;
-            width: 300px;
+            width: 80%;
+            max-width: 400px;
             text-align: left;
         }
+
         .bot-card h2 {
-            margin: 0;
-            color: #7289DA;
+            margin: 0 0 10px;
+            color: #4A69BB;
+            font-size: 22px;
         }
+
         .bot-card p {
             margin: 10px 0;
+            font-size: 16px;
         }
+
         .bot-card a {
             text-decoration: none;
-            background-color: #7289DA;
+            background-color: #4A69BB;
             color: #FFFFFF;
             padding: 10px 15px;
             border-radius: 5px;
             display: inline-block;
             margin-top: 10px;
+            transition: background-color 0.3s;
         }
+
+        .bot-card a:hover {
+            background-color: #3B5286;
+        }
+
         footer {
-            margin-top: 20px;
+            background-color: #4A69BB;
+            padding: 20px;
             font-size: 14px;
+            color: #FFFFFF;
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -55,22 +82,31 @@
     Welcome to My Discord Bots
 </header>
 
-<div class="bot-card">
-    <h2>Bot Name: Mitsuri Kanroji</h2>
-    <p>Description:A chat-bot of mitsuri kanroji.</p>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=1260251328509247589&permissions=67584&scope=bot" target="_blank">Invite Mitsuri Kanroji</a>
-</div>
+<section>
+    <h2>Chatbots</h2>
 
-<div class="bot-card">
-    <h2>Bot Name: Roronoa Zoro</h2>
-    <p>Description: A powerful warrior bot that assists with server moderation and user engagement.</p>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=1269218702419820586&permissions=67584&scope=bot" target="_blank">Invite Roronoa Zoro</a>
-</div>
-<div class="bot-card">
-    <h2>Bot Name: GPT 4o</h2>
-    <p>Description:Free GPT 4o access.</p>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=1259100656468496479&permissions=67584&scope=bot" target="_blank">Invite GPT 4o</a>
-</div>
+    <div class="bot-card">
+        <h2>Bot Name: Mitsuri Kanroji</h2>
+        <p>Description: A chatbot featuring Mitsuri Kanroji from Demon Slayer.</p>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1260251328509247589&permissions=67584&scope=bot" target="_blank">Invite Mitsuri Kanroji</a>
+    </div>
+
+    <div class="bot-card">
+        <h2>Bot Name: Roronoa Zoro</h2>
+        <p>Description: A powerful warrior bot that assists with server moderation and user engagement.</p>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1269218702419820586&permissions=67584&scope=bot" target="_blank">Invite Roronoa Zoro</a>
+    </div>
+</section>
+
+<section>
+    <h2>AI Bots</h2>
+
+    <div class="bot-card">
+        <h2>Bot Name: GPT 4o</h2>
+        <p>Description: Free GPT-4 access for your server.</p>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1259100656468496479&permissions=67584&scope=bot" target="_blank">Invite GPT 4o</a>
+    </div>
+</section>
 
 <footer>
     &copy; 2024 My Discord Bots | Designed by Me
